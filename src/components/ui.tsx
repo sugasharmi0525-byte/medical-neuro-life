@@ -61,14 +61,14 @@ export function StatCard({
   trend?: number | null;
 }) {
   return (
-    <div className="card-pad flex items-start gap-3">
+    <div className="card-pad flex flex-col items-start gap-2 sm:flex-row sm:gap-3">
       {Icon && (
-        <span className={clsx("flex h-11 w-11 shrink-0 items-center justify-center rounded-xl", TONES[tone])}>
+        <span className={clsx("flex h-10 w-10 shrink-0 items-center justify-center rounded-xl sm:h-11 sm:w-11", TONES[tone])}>
           <Icon size={20} />
         </span>
       )}
       <div className="min-w-0">
-        <p className="truncate text-xs font-medium text-slate-500">{label}</p>
+        <p className="text-xs font-medium leading-snug text-slate-500">{label}</p>
         <p className="mt-0.5 text-2xl font-bold text-slate-900">{value ?? <Skeleton className="h-7 w-12" />}</p>
         <div className="mt-0.5 flex items-center gap-1 text-[11px]">
           {trend !== undefined && trend !== null && (

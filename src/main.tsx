@@ -9,7 +9,10 @@ import { ToastProvider } from "@/components/Toast";
 import { I18nProvider } from "@/lib/i18n";
 import { ThemeProvider } from "@/lib/theme";
 import { BrandingProvider } from "@/components/BrandingProvider";
+import { startTableLabels } from "@/lib/tableLabels";
 import "@/index.css";
+
+startTableLabels();
 
 const queryClient = new QueryClient({
   defaultOptions: {

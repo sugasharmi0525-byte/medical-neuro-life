@@ -109,6 +109,39 @@
   .table-base tbody tr {
     @apply transition-colors hover:bg-slate-50/80;
   }
+  /* Phones: each row becomes a card. The first cell is the heading; the others show their
+     column name (data-label, copied from the header by lib/tableLabels.ts) beside the value. */
+  @media (max-width: 639px) {
+    .table-base thead {
+      @apply hidden;
+    }
+    .table-base,
+    .table-base tbody,
+    .table-base tr,
+    .table-base td {
+      @apply block w-full;
+    }
+    .table-base tbody tr {
+      @apply px-4 py-3;
+    }
+    .table-base td {
+      @apply flex min-w-0 items-center justify-between gap-3 px-0 py-1 text-right [overflow-wrap:anywhere];
+    }
+    .table-base td::before {
+      content: attr(data-label);
+      @apply shrink-0 text-left text-[11px] font-semibold uppercase tracking-wide text-slate-400;
+    }
+    .table-base td:first-child {
+      @apply justify-start pb-2 text-left;
+    }
+    .table-base td:first-child::before,
+    .table-base td[colspan]::before {
+      content: none;
+    }
+    .table-base td[colspan] {
+      @apply block text-left;
+    }
+  }
   .section-title {
     @apply text-sm font-semibold text-slate-800;
   }
