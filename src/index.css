@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 /* ---------------------------------------------------------------------------
-   Site theme tokens. These defaults are the "Mediance Green" theme; the Super Admin's
+   Site theme tokens. These defaults are the "Medicine Green" theme; the Super Admin's
    saved theme overrides them at runtime (src/lib/branding.ts). Colours are "r g b"
    triplets so Tailwind opacity modifiers (bg-brand-500/20) keep working.
    --------------------------------------------------------------------------- */

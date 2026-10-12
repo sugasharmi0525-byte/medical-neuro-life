@@ -27,7 +27,7 @@ export function Logo({ compact }: { compact?: boolean }) {
       </span>
       {!compact && (
         <span className="leading-tight">
-          <span className="block text-sm font-extrabold text-slate-900">Mediance</span>
+          <span className="block text-sm font-extrabold text-slate-900">Medicine</span>
           <span className="block text-[11px] font-semibold uppercase tracking-widest text-brand-600">Neuro Life</span>
         </span>
       )}
@@ -69,7 +69,7 @@ export default function PublicLayout() {
         )}
       >
         <div className="mx-auto flex max-w-6xl items-center justify-between gap-3 px-4 py-3">
-          <Link to="/" aria-label="Mediance Neuro Life home">
+          <Link to="/" aria-label="Medicine Neuro Life home">
             <Logo />
           </Link>
           <nav className="hidden items-center lg:flex">
@@ -167,7 +167,7 @@ export default function PublicLayout() {
         </div>
         <div className="border-t border-slate-200">
           <div className="mx-auto flex max-w-6xl flex-col gap-2 px-4 py-5 text-xs text-slate-400 md:flex-row md:justify-between">
-            <p>© {new Date().getFullYear()} Mediance Neuro Life</p>
+            <p>© {new Date().getFullYear()} Medicine Neuro Life</p>
             <p className="max-w-2xl md:text-right">{t("footer.disclaimer")}</p>
           </div>
         </div>

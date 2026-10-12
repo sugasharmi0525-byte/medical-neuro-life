@@ -7,7 +7,7 @@
 export const CONTACT = {
   phone: "+91 00000 00000",
   whatsapp: "https://wa.me/910000000000",
-  email: "care@mediance.demo",
+  email: "care@medicine.demo",
   address: "Demo Clinic, 1 Example Road, Bengaluru 560001",
   hours: [
     { days: "Mon – Fri", time: "9:00 AM – 7:00 PM" },

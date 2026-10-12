@@ -1,7 +1,7 @@
 import { createContext, useContext, useEffect, useState, type ReactNode } from "react";
 
 type Theme = "light" | "dark";
-const STORAGE_KEY = "mediance_theme";
+const STORAGE_KEY = "medicine_theme";
 
 function initialTheme(): Theme {
   if (typeof document !== "undefined" && document.documentElement.classList.contains("dark")) {

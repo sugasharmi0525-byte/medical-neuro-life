@@ -1,7 +1,7 @@
 import axios, { type AxiosError, type InternalAxiosRequestConfig } from "axios";
 
-export const ACCESS_TOKEN_KEY = "mediance_access_token";
-const REFRESH_TOKEN_KEY = "mediance_refresh_token";
+export const ACCESS_TOKEN_KEY = "medicine_access_token";
+const REFRESH_TOKEN_KEY = "medicine_refresh_token";
 
 export const tokenStorage = {
   getAccess: () => localStorage.getItem(ACCESS_TOKEN_KEY),

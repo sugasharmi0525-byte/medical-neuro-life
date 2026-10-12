@@ -13,7 +13,7 @@ export default function AuthShell({ children }: { children: ReactNode }) {
       <div className="relative hidden overflow-hidden bg-gradient-to-br from-brand-600 via-brand-700 to-accent-700 p-10 text-white lg:flex lg:flex-col">
         <div className="pointer-events-none absolute -right-20 -top-20 h-80 w-80 rounded-full bg-white/10" />
         <Link to="/" className="relative">
-          <span className="flex items-center gap-2 text-lg font-extrabold">Mediance Neuro Life</span>
+          <span className="flex items-center gap-2 text-lg font-extrabold">Medicine Neuro Life</span>
         </Link>
         <div className="relative mx-auto my-auto w-full max-w-sm">
           <div className="rounded-3xl bg-white/10 p-4 backdrop-blur">

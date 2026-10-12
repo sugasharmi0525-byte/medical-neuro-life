@@ -12,12 +12,12 @@ import { loginSchema, type LoginFormValues } from "@/schemas/authSchema";
 
 // Development-only shortcuts that mirror LOGIN_CREDENTIALS.txt; never rendered in production builds.
 const DEMO_ACCOUNTS = [
-  { label: "Super Admin", email: "superadmin@mediance.demo", password: "SuperAdmin@123" },
-  { label: "Admin", email: "admin@mediance.demo", password: "Admin@123" },
-  { label: "Doctor", email: "doctor1@mediance.demo", password: "Doctor@123" },
-  { label: "Patient", email: "patient1@mediance.demo", password: "Patient@123" },
-  { label: "Sales Manager", email: "manager@mediance.demo", password: "Manager@123" },
-  { label: "Sales Exec", email: "sales1@mediance.demo", password: "Sales@123" },
+  { label: "Super Admin", email: "superadmin@medicine.demo", password: "SuperAdmin@123" },
+  { label: "Admin", email: "admin@medicine.demo", password: "Admin@123" },
+  { label: "Doctor", email: "doctor1@medicine.demo", password: "Doctor@123" },
+  { label: "Patient", email: "patient1@medicine.demo", password: "Patient@123" },
+  { label: "Sales Manager", email: "manager@medicine.demo", password: "Manager@123" },
+  { label: "Sales Exec", email: "sales1@medicine.demo", password: "Sales@123" },
 ];
 
 export default function LoginPage() {

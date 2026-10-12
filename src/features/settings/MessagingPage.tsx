@@ -40,7 +40,7 @@ type Tab = "templates" | "log" | "test";
 const PLACEHOLDERS: { key: string; sample: string; events?: string[] }[] = [
   { key: "first_name", sample: "Asha" },
   { key: "full_name", sample: "Asha Verma" },
-  { key: "site_name", sample: "Mediance Neuro Life" },
+  { key: "site_name", sample: "Medicine Neuro Life" },
   { key: "link", sample: "http://localhost:5173/consultations/1234" },
   { key: "doctor_name", sample: "Kavya Raghavan", events: ["CONSULTATION_BOOKED", "CONSULTATION_REMINDER", "CONSULTATION_CANCELLED", "PRESCRIPTION_READY", "DOCTOR_NEW_BOOKING"] },
   { key: "patient_name", sample: "Asha Verma", events: ["CONSULTATION_BOOKED", "CONSULTATION_REMINDER", "CONSULTATION_CANCELLED", "PRESCRIPTION_READY", "DOCTOR_NEW_BOOKING"] },
@@ -147,7 +147,7 @@ EMAIL_PORT=587
 EMAIL_USE_TLS=True
 EMAIL_HOST_USER=you@yourdomain.com
 EMAIL_HOST_PASSWORD=<app password>
-DEFAULT_FROM_EMAIL=Mediance <you@yourdomain.com>`}</pre>
+DEFAULT_FROM_EMAIL=Medicine <you@yourdomain.com>`}</pre>
           <p className="text-xs">For Gmail use an App Password. For volume, use a provider such as Amazon SES, SendGrid or Zoho.</p>
         </div>
         <div className="space-y-2">
@@ -282,7 +282,7 @@ function TemplateEditor({ template, onDone }: { template: MessageTemplate; onDon
         <span className="label">Preview with sample values</span>
         {isEmail ? (
           <div className="overflow-hidden rounded-2xl border border-slate-200">
-            <div className="bg-brand-600 px-4 py-3 text-sm font-bold text-white">Mediance Neuro Life</div>
+            <div className="bg-brand-600 px-4 py-3 text-sm font-bold text-white">Medicine Neuro Life</div>
             <div className="space-y-3 bg-white p-4 text-sm text-slate-700">
               <p className="font-bold text-slate-900">{renderSample(form.subject) || "(no subject)"}</p>
               <p className="whitespace-pre-line">{renderSample(form.body)}</p>

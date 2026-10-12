@@ -5,8 +5,8 @@
 
 type DesktopPermission = "default" | "granted" | "denied";
 
-const KEY = "mediance_popup_prefs";
-const EVENT = "mediance-popup-prefs";
+const KEY = "medicine_popup_prefs";
+const EVENT = "medicine-popup-prefs";
 
 export interface PopupPrefs {
   inApp: boolean;

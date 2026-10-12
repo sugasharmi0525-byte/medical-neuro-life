@@ -252,7 +252,7 @@ export function ProductBottleIllustration({ className }: Props) {
       <rect x="72" y="14" width="56" height="34" rx="8" fill="#1e293b" />
       <rect x="44" y="44" width="112" height="190" rx="26" fill="white" stroke="#e2e8f0" strokeWidth="3" />
       <rect x="44" y="96" width="112" height="90" fill="rgb(var(--brand-500))" />
-      <text x="100" y="132" textAnchor="middle" fontSize="15" fontWeight="800" fill="white">MEDIANCE</text>
+      <text x="100" y="132" textAnchor="middle" fontSize="15" fontWeight="800" fill="white">MEDICINE</text>
       <text x="100" y="152" textAnchor="middle" fontSize="12" fontWeight="600" fill="white">NEURO LIFE</text>
       <text x="100" y="172" textAnchor="middle" fontSize="9" fill="rgb(var(--brand-100))">DEMO</text>
       <path d="M58 60 L58 220" stroke="#f1f5f9" strokeWidth="8" strokeLinecap="round" />

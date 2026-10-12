@@ -37,7 +37,7 @@ describe("branding", () => {
   it("applies variables to the document and caches them", () => {
     applyTheme({ ...DEFAULT_THEME, primary_color: "#8B6CEF", heading_font: "Quicksand" });
     expect(document.documentElement.style.getPropertyValue("--brand-500")).toBe("139 108 239");
-    expect(document.getElementById("mediance-theme-fonts")?.getAttribute("href")).toContain("Quicksand");
-    expect(JSON.parse(localStorage.getItem("mediance_site_theme")!).theme.primary_color).toBe("#8B6CEF");
+    expect(document.getElementById("medicine-theme-fonts")?.getAttribute("href")).toContain("Quicksand");
+    expect(JSON.parse(localStorage.getItem("medicine_site_theme")!).theme.primary_color).toBe("#8B6CEF");
   });
 });

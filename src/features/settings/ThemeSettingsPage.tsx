@@ -222,7 +222,7 @@ export default function ThemeSettingsPage() {
       queryClient.setQueryData(["theme-settings"], result);
       setDraft(result);
       setSaved(result);
-      toast("Theme reset to Mediance Green.");
+      toast("Theme reset to Medicine Green.");
     },
     onError: (e) => toast(apiError(e), "error"),
   });
@@ -249,7 +249,7 @@ export default function ThemeSettingsPage() {
               className="btn-outline"
               disabled={reset.isPending || sameTheme(draft, DEFAULT_THEME)}
               onClick={() => {
-                if (window.confirm("Reset the site theme to the original Mediance Green for everyone?")) reset.mutate();
+                if (window.confirm("Reset the site theme to the original Medicine Green for everyone?")) reset.mutate();
               }}
             >
               <RotateCcw size={16} /> Reset to default

@@ -41,7 +41,7 @@ const en = {
   "hero.eyebrow": "Neuro wellness, guided by doctors",
   "hero.title": "Care for your mind, backed by specialists",
   "hero.subtitle":
-    "Enquire about Mediance Neuro Life, talk to our care team, and book a consultation with a neurologist, psychiatrist or physician — all in one place.",
+    "Enquire about Medicine Neuro Life, talk to our care team, and book a consultation with a neurologist, psychiatrist or physician — all in one place.",
   "hero.ctaPrimary": "Enquire now",
   "hero.ctaSecondary": "Book a consultation",
   "hero.whatsapp": "WhatsApp us",
@@ -51,7 +51,7 @@ const en = {
   "trust.support": "Care-team support",
   "section.howItWorks": "How it works",
   "section.howItWorksSub": "From first enquiry to follow-up care in four simple steps.",
-  "section.product": "Meet Mediance Neuro Life",
+  "section.product": "Meet Medicine Neuro Life",
   "section.focusAreas": "Areas we focus on",
   "section.focusAreasSub": "Our doctors and care team support you across everyday neuro-wellness concerns.",
   "section.doctors": "Meet our doctors",
@@ -130,7 +130,7 @@ const hi: Dictionary = {
   "hero.eyebrow": "डॉक्टरों के मार्गदर्शन में न्यूरो वेलनेस",
   "hero.title": "आपके मन की देखभाल, विशेषज्ञों के साथ",
   "hero.subtitle":
-    "Mediance Neuro Life के बारे में पूछताछ करें, हमारी केयर टीम से बात करें और न्यूरोलॉजिस्ट, मनोचिकित्सक या फिजिशियन के साथ परामर्श बुक करें — सब एक ही जगह।",
+    "Medicine Neuro Life के बारे में पूछताछ करें, हमारी केयर टीम से बात करें और न्यूरोलॉजिस्ट, मनोचिकित्सक या फिजिशियन के साथ परामर्श बुक करें — सब एक ही जगह।",
   "hero.ctaPrimary": "पूछताछ करें",
   "hero.ctaSecondary": "परामर्श बुक करें",
   "hero.whatsapp": "WhatsApp करें",
@@ -140,7 +140,7 @@ const hi: Dictionary = {
   "trust.support": "केयर टीम सहायता",
   "section.howItWorks": "यह कैसे काम करता है",
   "section.howItWorksSub": "पहली पूछताछ से फॉलो-अप देखभाल तक, चार आसान चरण।",
-  "section.product": "Mediance Neuro Life से मिलें",
+  "section.product": "Medicine Neuro Life से मिलें",
   "section.focusAreas": "हमारे मुख्य क्षेत्र",
   "section.focusAreasSub": "हमारे डॉक्टर और केयर टीम रोज़मर्रा की न्यूरो-वेलनेस चिंताओं में आपकी मदद करते हैं।",
   "section.doctors": "हमारे डॉक्टरों से मिलें",
@@ -216,7 +216,7 @@ const ta: Dictionary = {
   "hero.eyebrow": "மருத்துவர் வழிகாட்டுதலுடன் நரம்பு நலம்",
   "hero.title": "நிபுணர்களின் துணையுடன் உங்கள் மனநலப் பராமரிப்பு",
   "hero.subtitle":
-    "Mediance Neuro Life பற்றி விசாரிக்கவும், எங்கள் பராமரிப்பு குழுவுடன் பேசவும், நரம்பியல், மனநல அல்லது பொது மருத்துவருடன் ஆலோசனை பதிவு செய்யவும் — அனைத்தும் ஒரே இடத்தில்.",
+    "Medicine Neuro Life பற்றி விசாரிக்கவும், எங்கள் பராமரிப்பு குழுவுடன் பேசவும், நரம்பியல், மனநல அல்லது பொது மருத்துவருடன் ஆலோசனை பதிவு செய்யவும் — அனைத்தும் ஒரே இடத்தில்.",
   "hero.ctaPrimary": "விசாரிக்கவும்",
   "hero.ctaSecondary": "ஆலோசனை பதிவு",
   "hero.whatsapp": "WhatsApp செய்யுங்கள்",
@@ -226,7 +226,7 @@ const ta: Dictionary = {
   "trust.support": "பராமரிப்பு குழு ஆதரவு",
   "section.howItWorks": "இது எப்படி செயல்படுகிறது",
   "section.howItWorksSub": "முதல் விசாரணையிலிருந்து பின்தொடர் பராமரிப்பு வரை நான்கு எளிய படிகள்.",
-  "section.product": "Mediance Neuro Life-ஐ அறிந்துகொள்ளுங்கள்",
+  "section.product": "Medicine Neuro Life-ஐ அறிந்துகொள்ளுங்கள்",
   "section.focusAreas": "நாங்கள் கவனம் செலுத்தும் பகுதிகள்",
   "section.focusAreasSub": "அன்றாட நரம்பு நலக் கவலைகளில் எங்கள் மருத்துவர்கள் உங்களுக்கு உதவுகிறார்கள்.",
   "section.doctors": "எங்கள் மருத்துவர்கள்",
@@ -269,7 +269,7 @@ const ta: Dictionary = {
 };
 
 const DICTIONARIES: Record<Language, Dictionary> = { en, hi, ta };
-const STORAGE_KEY = "mediance_language";
+const STORAGE_KEY = "medicine_language";
 
 function initialLanguage(): Language {
   try {

@@ -4,7 +4,7 @@
  * accent-* colours read (see tailwind.config.js and index.css).
  */
 
-export type ThemePreset = "MEDIANCE_GREEN" | "ROSE_PLUM" | "LAVENDER_CALM" | "PEACH_TEAL" | "MAUVE_MINIMAL" | "CUSTOM";
+export type ThemePreset = "MEDICINE_GREEN" | "ROSE_PLUM" | "LAVENDER_CALM" | "PEACH_TEAL" | "MAUVE_MINIMAL" | "CUSTOM";
 export type CornerStyle = "STANDARD" | "ROUND";
 
 export interface SiteTheme {
@@ -22,7 +22,7 @@ export const HEADING_FONTS = ["Plus Jakarta Sans", "Fraunces", "Quicksand", "DM 
 export const BODY_FONTS = ["Plus Jakarta Sans", "Nunito", "Poppins"];
 
 export const PRESET_INFO: Record<Exclude<ThemePreset, "CUSTOM">, { label: string; description: string }> = {
-  MEDIANCE_GREEN: { label: "Mediance Green", description: "The original look: fresh green with violet accents." },
+  MEDICINE_GREEN: { label: "Medicine Green", description: "The original look: fresh green with violet accents." },
   ROSE_PLUM: { label: "Rose & Plum", description: "Elegant and warm. Recommended for a women-only site." },
   LAVENDER_CALM: { label: "Lavender Calm", description: "Soft and soothing, suits sleep and stress care." },
   PEACH_TEAL: { label: "Peach & Teal", description: "Friendly peach with a trustworthy teal edge." },
@@ -30,7 +30,7 @@ export const PRESET_INFO: Record<Exclude<ThemePreset, "CUSTOM">, { label: string
 };
 
 export const DEFAULT_THEME: SiteTheme = {
-  preset: "MEDIANCE_GREEN",
+  preset: "MEDICINE_GREEN",
   primary_color: "#0F9D78",
   accent_color: "#7C5CF6",
   heading_font: "Plus Jakarta Sans",
@@ -43,8 +43,8 @@ const SHADES = [50, 100, 200, 300, 400, 500, 600, 700, 800, 900] as const;
 const MIX: Record<(typeof SHADES)[number], number> = {
   50: 0.93, 100: 0.84, 200: 0.66, 300: 0.46, 400: 0.24, 500: 0, 600: 0.16, 700: 0.32, 800: 0.46, 900: 0.6,
 };
-const CACHE_KEY = "mediance_site_theme";
-const FONT_LINK_ID = "mediance-theme-fonts";
+const CACHE_KEY = "medicine_site_theme";
+const FONT_LINK_ID = "medicine-theme-fonts";
 
 export function isHexColor(value: string) {
   return /^#[0-9a-fA-F]{6}$/.test(value);
