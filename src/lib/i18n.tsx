@@ -74,7 +74,7 @@ const en = {
   "focus.headache": "Headache care",
   "common.viewDetails": "View details",
   "common.learnMore": "Learn more",
-  "common.years": "years experience",
+  "common.years": "years of experience",
   "common.demoNotice": "Demo content — replace with client-approved information.",
   "common.search": "Search",
   "common.loading": "Loading…",
